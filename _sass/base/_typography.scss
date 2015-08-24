@@ -24,6 +24,9 @@ h1 {
 }
 h2 {
 	font-size: modular-scale(3);
+  a:hover {
+    color: darken($action-color, 15%);
+  }
 }
 h3 {
 	font-size: modular-scale(2);
@@ -45,7 +48,7 @@ p {
 a {
   color: $action-color;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 
   &:active,
   &:focus,
@@ -56,6 +59,12 @@ a {
   &:active,
   &:focus {
     outline: none;
+  }
+}
+
+.newer-posts {
+  &:hover {
+    color: darken($action-color, 10%);
   }
 }
 
