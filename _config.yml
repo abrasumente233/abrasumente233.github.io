@@ -4,14 +4,14 @@ gems:
   - jekyll-sitemap
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
+title: 荒蛮之地
+subtitle: "这里还没有被开垦哦"
+email: abrasumentee@gmail.com
+name: abrasumente
 description: > 
   A simple yet classy theme for your Jekyll website or blog.
-baseurl: "/centrarium/" # the subpath of your site, e.g. /blog/
-url: "http://bencentra.com" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://abrasumente233.github.io" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 
