@@ -335,7 +335,8 @@ pre code.hljs {
 	color: $white;
 	a {
 	  color: $link-color;
-		transition: opacity 0.3 ease;
+		transition: color 0.3s ease;
+		
 	  &:active,
 	  &:focus,
 	  &:hover {
