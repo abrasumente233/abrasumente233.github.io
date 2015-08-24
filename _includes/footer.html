@@ -6,7 +6,7 @@
 
     <div class="site-navigation">
 
-    	<p><strong>Site Map</strong></p>
+    	<p><strong>指南针</strong></p>
       <ul class="pages">
         {% for page in site.pages %}
         {% if page.title and page.main_nav != false %}
@@ -18,7 +18,7 @@
 
     <div class="site-contact">
 
-    	<p><strong>Contact</strong>
+    	<p><strong>呼我</strong>
       <ul class="social-media-list">
       	<li>
       		<a href="mailto:{{ site.email }}">
@@ -42,7 +42,7 @@
     </div>
 
     <div class="site-signature">
-    	<p class="rss-subscribe text"><strong>Subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
+    	<p class="rss-subscribe text"><strong>通过 <a href="{{ "feed.xml" | prepend: site.baseurl }}">RSS</a> 订阅</strong></p>
       <p class="text">{{ site.description }}</p>
     </div>
 
