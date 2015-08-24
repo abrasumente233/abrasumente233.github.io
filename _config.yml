@@ -3,7 +3,7 @@ gems:
   - jekyll-sitemap
 
 # Site settings
-permalinks: /:title
+permalink: /:title
 title: 荒蛮之地
 subtitle: "这里还没有被开垦哦"
 email: abrasumentee@gmail.com
