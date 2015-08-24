@@ -19,7 +19,7 @@ hl_style: "css/github.css"
 # Build settings
 markdown: kramdown
 paginate: 5
-paginate_path: "/page-:num/"
+paginate_path: "/page:num/"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
