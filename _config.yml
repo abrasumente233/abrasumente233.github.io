@@ -39,7 +39,7 @@ ga_tracking_id: "UA-66656181-1"
 # Category descriptions (for archive pages)
 descriptions:
   - cat: 生活
-    desc: "微博流水账风式"
+    desc: "微博流水账式"
 
   - cat: 计算机
     desc: "也是流水账"
