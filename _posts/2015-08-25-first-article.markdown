@@ -14,7 +14,8 @@ excerpt: 趁放假最后几天捣鼓了一个博客，也没期望产出什么�
 
 好了不说了，赶作业去了...
 
-对了忘了说，主题是 [Centrarium][centrarium]。很漂亮，感谢作者。
+对了忘了说，主题是 [Centrarium][centrarium]。很漂亮，感谢作者。  
+
 [jekyll]: http://jekyllrb.com/
 [stackedit]: https://stackedit.io
 [centrarium]:	https://github.com/bencentra/centrarium
