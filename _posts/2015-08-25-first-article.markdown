@@ -5,6 +5,7 @@ date:   2015-08-26 09:48:02
 author: abrasumente
 categories: 二次元
 cover:  "assets/instacode.png"
+excerpt: 趁放假最后几天捣鼓了一个博客，也没期望产出什么干货。
 ---
 
 趁放假最后几天捣鼓了一个博客，也没期望产出什么干货。  
