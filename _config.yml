@@ -5,7 +5,7 @@ gems:
 # Site settings
 permalink: /:title
 title: 荒蛮之地
-subtitle: "这里还没有被开垦哦"
+subtitle: "Softly, softly, catchee monkey"
 email: abrasumentee@gmail.com
 name: abrasumente
 description: >
@@ -49,7 +49,7 @@ social:
     icon: qq
     username: "345396594"
     url: http://wpa.qq.com/msgrd?v=3&uin=345396594&site=qq&menu=yes
-    desc: Find me on QQ
+    desc: 企鹅
     share_url:
     share_title:
     share_link:
@@ -58,25 +58,7 @@ social:
     icon: github
     username: abrasumente233
     url: https://github.com/abrasumente233
-    desc: Fuck me on GitHub
-    share_url:
-    share_title:
-    share_link:
-
-  - name: SoundCloud
-    icon: soundcloud
-    username: abrasumente44
-    url: https://soundcloud.com/abrasumente44
-    desc: Follow me on SoundCloud
-    share_url:
-    share_title:
-    share_link:
-
-  - name: Steam
-    icon: steam
-    username: abrasumente44
-    url: http://steamcommunity.com/id/abrasumente44/
-    desc: Friend me on Steam
+    desc: 这里没啥东西
     share_url:
     share_title:
     share_link:
