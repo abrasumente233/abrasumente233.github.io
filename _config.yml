@@ -1,9 +1,9 @@
 # External gems
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Site settings
-permalink: /:title
 title: 荒蛮之地
 subtitle: "Softly, softly, catchee monkey"
 email: abrasumentee@gmail.com
