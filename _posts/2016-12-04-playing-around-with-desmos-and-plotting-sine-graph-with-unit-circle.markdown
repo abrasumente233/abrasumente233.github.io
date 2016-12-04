@@ -31,6 +31,7 @@ excerpt: 用 Desmos 可以作出许多有趣的交互图像。
 如果看不了，也可以看[文字版](https://desmos.s3.amazonaws.com/Desmos_User_Guide_ZH-CN.pdf)。但是因为没有视频来的那么简单，所以不推荐。
 
 ## 2. 用单位圆画正弦函数图像
+
 ### 2.0 原型
 参见湘教版高中必修（一）第 39 页顶图（那个图实在太反人类）。或下图（来自玄数）：
 ![单位圆和正弦函数图像]({{ site.url }}/assets/desmos/unit-circle-and-sine-graph.gif)
@@ -54,6 +55,7 @@ $$(x-C_x)^2+y^2=1$$
 平移多少随你定，看着舒服就行。
 
 #### 2.1.2 画终边和三角函数线
+
 ##### 2.1.2.0 交点坐标
 
 先求出终边和单位圆的交点坐标会方便许多。设终边与单位圆相交与 $P$ 点。明显它的纵坐标为 $\sin{\alpha}$。至于横坐标，由于单位圆刚才已经向左平移，$P$ 点也要随之平移。综上就有：
@@ -79,7 +81,7 @@ $$x=P_x\{\min(0,P_y)<y<\max(0,P_y)\}$$
 ##### 2.1.2.2 作终边
 可以拿一次函数来作：
 $$y=x$$
-![y=x]({{ site.url }}/assets/desmos/simple-y-eqauls-to-x.png)
+![y=x]({{ site.url }}/assets/desmos/simple-y-equals-to-x.png)
 
 斜率就是$\tan\alpha$ 了：
 $$y=(\tan{\alpha})x$$
