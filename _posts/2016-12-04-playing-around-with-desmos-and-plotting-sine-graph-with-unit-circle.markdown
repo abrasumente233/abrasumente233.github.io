@@ -87,7 +87,7 @@ $$y=(\tan{\alpha})(x-C_x)$$
 ![平移直线]({{ site.url }}/assets/desmos/shift-the-line-to-where-it-should-be.png)
 
 为避免它割过整个圆，再作出一点限制，让它定义域限制在**圆心**和**交点 $P$** 之间：
-$$y=(\tan{\alpha})(x-C_x)\{{\min (C_x,P_x)}\leq{x}\leq{\max (C_x,P_x)}\}$$
+$$y=(\tan{\alpha})(x-C_x)\{\min (C_x,P_x)\leq{x}\leq\max (C_x,P_x)\}$$
 ![限制直线范围]({{ site.url }}/assets/desmos/some-restrictions-on-the-line.png)
 
 #### 2.1.2 画正弦图像
@@ -96,7 +96,7 @@ $$f(x)=\sin{x}$$
 ![y=sinx]({{ site.url }}/assets/desmos/original-graph-of-sine.png)
 
 再一步步限制：
-$$f(x)=\sin{x} \{{0}\leq{x}\leq{\alpha}\}$$
+$$f(x)=\sin{x} \{ 0 \leq x \leq \alpha\}$$
 ![限制正弦函数图像]({{ site.url }}/assets/desmos/put-sine-in-jail.png)
 
 作出图像上相应的点：
@@ -104,7 +104,7 @@ $$(\alpha,f(\alpha))$$
 ![正弦函数图像上的点]({{ site.url }}/assets/desmos/corresponding-point-on-the-sine-graph.png)
 
 #### 2.1.3 交点 $P$ 与图像上对应点连线
-$$y=P_y\{{P_x}\leq{x}\leq{\alpha}\}$$
+$$y=P_y\{ P_x \leq x \leq \alpha \}$$
 ![连线]({{ site.url }}/assets/desmos/connect-unit-circle-and-sine-graph-together.png)
 
 #### 2.1.4 图像上对应点纵坐标
