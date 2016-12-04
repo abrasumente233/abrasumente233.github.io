@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "余光中：怎样改进英式中文？—论中文的常态与变态"
+title:  "新玩具 Desmos 与正弦函数图像"
 date:   2016-12-04 16:00:53
 author: abrasumente
 categories: 二次元
@@ -11,7 +11,9 @@ excerpt: 用 Desmos 可以作出许多有趣的交互图像。
 ## 0. Desmos 是？
 
 拖动紫色的点来体验一下：
+{% raw %}
 <iframe src="https://www.desmos.com/calculator/zsd9pilokm?embed" width="736px" height="500px" style="border: none" frameBorder=0 />
+{% endraw %}
 
 可以看出，Desmos 就是用来画交互式图像的。
 
@@ -116,11 +118,17 @@ $$x=[P_x,\alpha]\{\min(0,P_y)<y<\max(0,P_y)\}$$
 
 ### 2.2 成品
 图像上的点可以拖动。
+{% raw %}
 <iframe src="https://www.desmos.com/calculator/nys9tokhfn?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder=0 />
+{% endraw %}
 
 ### 2.3 改进版
+{% raw %}
 <iframe src="https://www.desmos.com/calculator/ttpm67hjrx?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder=0 />
+{% endraw %}
 
 ## 3. 总结
 事实证明这个玩意非常好玩....最后送上一个 $y=A\sin(\omega{x}+\phi)$
+{% raw %}
 <iframe src="https://www.desmos.com/calculator/ltxpsskwft?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder=0 />
+{% endraw %}
