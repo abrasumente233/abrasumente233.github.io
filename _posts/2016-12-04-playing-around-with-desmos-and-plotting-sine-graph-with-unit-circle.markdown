@@ -11,7 +11,7 @@ excerpt: 用 Desmos 可以作出许多有趣的交互图像。
 ## 0. Desmos 是？
 
 拖动紫色的点来体验一下：
-<iframe src="https://www.desmos.com/calculator/zsd9pilokm?embed" width="736px" height="500px" style="border: none" frameBorder=0> </iframe>
+<iframe src="https://www.desmos.com/calculator/zsd9pilokm?embed" width="736px" height="500px" style="border: none" frameBorder="0" markdown="0"> </iframe>
 
 可以看出，Desmos 就是用来画交互式图像的。
 
@@ -119,15 +119,15 @@ $$x=[P_x,\alpha]\{\min(0,P_y)<y<\max(0,P_y)\}$$
 ### 2.2 成品
 图像上的点可以拖动。
 
-<iframe src="https://www.desmos.com/calculator/nys9tokhfn?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder=0> </iframe>
+<iframe src="https://www.desmos.com/calculator/nys9tokhfn?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder="0" markdown="0"> </iframe>
 
 
 ### 2.3 改进版
 
-<iframe src="https://www.desmos.com/calculator/ttpm67hjrx?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder=0> </iframe>
+<iframe src="https://www.desmos.com/calculator/ttpm67hjrx?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder="0" markdown="0"> </iframe>
 
 
 ## 3. 总结
 事实证明这个玩意非常好玩....最后送上一个 $y=A\sin(\omega{x}+\phi)$
 
-<iframe src="https://www.desmos.com/calculator/ltxpsskwft?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder=0> </iframe>
+<iframe src="https://www.desmos.com/calculator/ltxpsskwft?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder="0" markdown="0"> </iframe>
