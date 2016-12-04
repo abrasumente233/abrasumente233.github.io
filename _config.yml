@@ -6,13 +6,13 @@ gems:
 # Site settings
 permalink: /:title
 title: 荒蛮之地
-subtitle: "42"
+subtitle: "Hope you never thought I was a monster"
 email: abrasumentee@gmail.com
 name: abrasumente
 description: >
   深思熟虑
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://abrasumente233.github.io" # the base hostname & protocol for your site
+url: "https://abrasumente233.github.io" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 hl_style: "css/github.css"
@@ -46,11 +46,11 @@ ga_tracking_id: "UA-66656181-1"
 #     share_title: ?text=                   # Title parameter for sharing URL
 #     share_link: "&amp;url="               # Link parameter for sharing URL
 social:
-  - name: QQ
-    icon: qq
-    username: "345396594"
-    url: http://wpa.qq.com/msgrd?v=3&uin=345396594&site=qq&menu=yes
-    desc: 企鹅
+  - name: 邮件
+    icon: email
+    username: "abrasumentee@gmail.com"
+    url: mailto:abrasumentee@gmail.com
+    desc: 可能会看到，可能吧
     share_url:
     share_title:
     share_link:
@@ -59,7 +59,7 @@ social:
     icon: github
     username: abrasumente233
     url: https://github.com/abrasumente233
-    desc: 这里没啥东西
+    desc: 垃圾堆
     share_url:
     share_title:
     share_link:
