@@ -47,7 +47,7 @@ ga_tracking_id: "UA-66656181-1"
 #     share_link: "&amp;url="               # Link parameter for sharing URL
 social:
   - name: 邮件
-    icon: email
+    icon: envelope-o
     username: "abrasumentee@gmail.com"
     url: mailto:abrasumentee@gmail.com
     desc: 可能会看到，可能吧
