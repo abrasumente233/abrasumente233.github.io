@@ -4,7 +4,7 @@ title:  "第一篇文章"
 date:   2015-08-26 09:48:02
 author: abrasumente
 categories: 二次元
-cover:  "assets/instacode.png"
+cover:  "assets/instacode.jpg"
 excerpt: 趁放假最后几天捣鼓了一个博客，没有任何内容的博客
 ---
 
