@@ -8,7 +8,7 @@ cover:  "assets/renewing-my-home.jpg"
 excerpt: 为迎接某个重要的人。但也许并不会来。
 ---
 
-<audio src="http://abstatic.qiniudn.com/agoraphobia.mp3" markdown="0"></audio>
+<audio controls src="http://abstatic.qiniudn.com/agoraphobia.mp3" markdown="0"></audio>
 
 
 If you gave me all the money  
