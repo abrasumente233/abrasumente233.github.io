@@ -16,6 +16,7 @@ url: "https://abrasumente233.github.io" # the base hostname & protocol for your 
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 hl_style: "css/github.css"
+future: true
 
 # Build settings
 markdown: kramdown
@@ -47,13 +48,13 @@ ga_tracking_id: "UA-66656181-1"
 #     share_link: "&amp;url="               # Link parameter for sharing URL
 social:
   - name: 邮件
-    icon: envelope-o
+    icon: icon-envelope
     username: abrasumentee@gmail.com
     url: mailto:abrasumentee@gmail.com
     desc: 可能会看到，可能吧
 
   - name: GitHub
-    icon: github
+    icon: icon-github2
     username: abrasumente233
     url: https://github.com/abrasumente233
     desc: 垃圾堆

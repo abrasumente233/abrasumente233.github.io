@@ -20,18 +20,12 @@
 
     	<p><strong>呼我</strong>
       <ul class="social-media-list">
-      	<li>
-      		<a href="mailto:{{ site.email }}">
-	      		<i class="fa fa-envelope-o"></i>
-	      		<span class="username">{{ site.email }}</span>
-      		</a>
-      	</li>
 
       	{% for social in site.social %}
       	{% if social.url != null %}
       	<li>
           <a href="{{ social.url }}" title="{{ social.desc }}">
-            <i class="fa fa-{{ social.icon }}"></i>
+            <span class="{{ social.icon }}"></span>
             <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
           </a>
         </li>
