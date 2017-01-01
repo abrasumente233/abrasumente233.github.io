@@ -11,7 +11,9 @@ excerpt: 用 Desmos 可以作出许多有趣的交互图像。
 ## 0. Desmos 是？
 
 拖动紫色的点来体验一下：
-<iframe src="https://www.desmos.com/calculator/zsd9pilokm?embed" width="736px" height="500px" style="border: none" frameBorder="0" markdown="0"> </iframe>
+<div class="iframe-container iframe-container-736x500" markdown="0">
+  <iframe src="https://www.desmos.com/calculator/zsd9pilokm?embed" style="border: none" frameBorder="0"></iframe>
+</div>
 
 可以看出，Desmos 就是用来画交互式图像的。
 
@@ -95,7 +97,7 @@ $$x=P_x\{0<y<P_y\}$$
 
 这个就比刚才的好多了。可是还是有一点问题，就是当 $P_y<0$ 时，限制条件就会变成这种鬼畜东西：$0<y<-1$。所以，$0$ 和 $P_y$ 应该取小的放在左边，大的放在右边。就有：
 
-$$x=P_x\{\min(0,P_y)<y<\max(0,P_y)\}$$
+$$x=P_x \\ \{\min(0,P_y)<y<\max(0,P_y)\}$$
 
 ![完美正弦线]({{ site.url }}/assets/desmos/sine-line.png)
 
@@ -119,7 +121,7 @@ $$y=(\tan{\alpha})(x-C_x)$$
 
 为避免它割过整个圆，再作出一点限制，让它定义域限制在**圆心**和**交点 $P$** 之间：
 
-$$y=(\tan{\alpha})(x-C_x)\{\min (C_x,P_x)\leq{x}\leq\max (C_x,P_x)\}$$
+$$y=(\tan{\alpha})(x-C_x) \\ \{\min (C_x,P_x)\leq{x}\leq\max (C_x,P_x)\}$$
 
 ![限制直线范围]({{ site.url }}/assets/desmos/some-restrictions-on-the-line.png)
 
@@ -151,26 +153,32 @@ $$y=P_y\{ P_x \leq x \leq \alpha \}$$
 #### 2.1.4 图像上对应点纵坐标
 跟上面正弦线一样：
 
-$$x=\alpha\{\min(0,P_y)<y<\max(0,P_y)\}$$
+$$x=\alpha \\ \{\min(0,P_y)<y<\max(0,P_y)\}$$
 
 所以可以合并起来写：
 
-$$x=[P_x,\alpha]\{\min(0,P_y)<y<\max(0,P_y)\}$$
+$$x=[P_x,\alpha] \\ \{\min(0,P_y)<y<\max(0,P_y)\}$$
 
 ![平移正弦线]({{ site.url }}/assets/desmos/a-fancy-line.png)
 
 ### 2.2 成品
 图像上的点可以拖动。
 
-<iframe src="https://www.desmos.com/calculator/nys9tokhfn?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder="0" markdown="0"> </iframe>
+<div class="iframe-container iframe-container-736x300" markdown="0">
+  <iframe src="https://www.desmos.com/calculator/nys9tokhfn?embed" style="border: none" frameBorder="0"></iframe>
+</div>
 
 
 ### 2.3 改进版
 
-<iframe src="https://www.desmos.com/calculator/ttpm67hjrx?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder="0" markdown="0"> </iframe>
+<div class="iframe-container iframe-container-736x300" markdown="0">
+  <iframe src="https://www.desmos.com/calculator/ttpm67hjrx?embed" style="border: none" frameBorder="0"></iframe>
+</div>
 
 
 ## 3. 总结
 事实证明这个玩意非常好玩....最后送上一个 $y=A\sin(\omega{x}+\phi)$
 
-<iframe src="https://www.desmos.com/calculator/ltxpsskwft?embed" width="736px" height="300px" style="border: 1px solid #ccc" frameBorder="0" markdown="0"> </iframe>
+<div class="iframe-container iframe-container-736x300" markdown="0">
+  <iframe src="https://www.desmos.com/calculator/ltxpsskwft?embed" style="border: none" frameBorder="0"></iframe>
+</div>
