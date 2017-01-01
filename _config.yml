@@ -23,7 +23,7 @@ paginate: 5
 paginate_path: "/page:num/"
 
 # Disqus comments
-disqus_shortname: abcomment
+#disqus_shortname: abcomment
 
 # Google analytics
 ga_tracking_id: "UA-66656181-1"
@@ -48,18 +48,12 @@ ga_tracking_id: "UA-66656181-1"
 social:
   - name: 邮件
     icon: envelope-o
-    username: "abrasumentee@gmail.com"
+    username: abrasumentee@gmail.com
     url: mailto:abrasumentee@gmail.com
     desc: 可能会看到，可能吧
-    share_url:
-    share_title:
-    share_link:
 
   - name: GitHub
     icon: github
     username: abrasumente233
     url: https://github.com/abrasumente233
     desc: 垃圾堆
-    share_url:
-    share_title:
-    share_link:
