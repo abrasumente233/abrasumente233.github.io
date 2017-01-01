@@ -23,6 +23,11 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
 
+# Syntax Highlighting
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # Disqus comments
 #disqus_shortname: abcomment
 

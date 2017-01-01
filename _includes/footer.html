@@ -53,32 +53,8 @@
     }
   });
 </script>
-<script src="{{ "js/highlight.js" | prepend: site.baseurl }}"></script>
 <script src="https://cdn.css.net/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
 <script src="https://cdn.css.net/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML" async charset="utf-8"></script>
-<script>
-
-$(document).ready(function() {
-
-	// Syntax highlighting
-	hljs.initHighlightingOnLoad();
-
-	// Header
-  var menuToggle = $('#js-mobile-menu').unbind();
-  $('#js-navigation-menu').removeClass("show");
-  menuToggle.on('click', function(e) {
-    e.preventDefault();
-    $('#js-navigation-menu').slideToggle(function(){
-      if($('#js-navigation-menu').is(':hidden')) {
-        $('#js-navigation-menu').removeAttr('style');
-      }
-    });
-  });
-
-
-});
-
-</script>
 
 {% if site.ga_tracking_id %}
 <!-- Google Analytics -->
