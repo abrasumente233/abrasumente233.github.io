@@ -14,3 +14,8 @@
 @import "tables";
 @import "iframes";
 @import "typography";
+
+video,
+audio {
+  width: 100%;
+}
