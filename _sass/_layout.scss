@@ -27,17 +27,6 @@ ul.default {
 	@extend %default-ul;
 }
 
-code {
-	background-color: #eee;
-	display: inline-block;
-	border-radius: 3px;
-	padding: 0 3px;
-}
-
-pre code.hljs {
-	font-size: modular-scale(-1);
-}
-
 .page-divider {
 	$divider-color: $light-gray;
   display: block;

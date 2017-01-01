@@ -53,7 +53,3 @@ And it's not agoraphobia, it's just a lack of
 Air supply that keeps me up at night  
 I know I'm getting older  
 But I'm told that I'm not momentarily out of my mind  
-
-`​`` python
-import this
-`​``
