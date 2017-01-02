@@ -4,7 +4,7 @@ title:  "新玩具 Desmos 与正弦函数图像"
 date:   2016-12-04 16:00:53
 author: abrasumente
 categories: 二次元
-cover:  "assets/desmos/banner.jpg"
+cover:  "http://abstatic.qiniudn.com/banner.jpg"
 excerpt: 用 Desmos 可以作出许多有趣的交互图像。
 ---
 

@@ -4,7 +4,7 @@ title:  "修补一下我破旧的窝"
 date:   2017-01-02 00:57:53
 author: abrasumente
 categories: 二次元
-cover:  "assets/renewing-my-home.jpg"
+cover:  "http://abstatic.qiniudn.com/renewing-my-home.jpg"
 excerpt: 为迎接某个重要的人。但也许并不会来。
 ---
 
