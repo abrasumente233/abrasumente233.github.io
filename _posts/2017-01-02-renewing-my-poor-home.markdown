@@ -5,7 +5,7 @@ date:   2017-01-02 00:57:53
 author: abrasumente
 categories: 二次元
 cover:  "http://abstatic.qiniudn.com/renewing-my-home.jpg"
-excerpt: 为迎接某个重要的人。但也许并不会来。
+excerpt: 但也许你并不会来。
 ---
 
 <audio controls preload="none" src="http://abstatic.qiniudn.com/agoraphobia.mp3" markdown="0"></audio>
