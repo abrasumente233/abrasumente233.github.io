@@ -92,20 +92,7 @@ ul.default {
 	box-shadow: 0 2px $highlight-color;
 	padding: 0 1em;
 	margin: 0;
-	/*
-	*	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
-	*/
-  // Mobile view
-  .navigation-menu-button {
-    display: block;
-    float: right;
-    margin: 0;
-    font-size: 1.5em;
-    padding-top: 0.5em;
-    @include media ($tablet) {
-      display: none;
-    }
-  }
+
   // Nav menu
   .navigation-wrapper {
   	@include outer-container;
@@ -128,53 +115,34 @@ ul.default {
     }
   }
   nav {
-    float: none;
     padding: 1.25em 0;
-    @include media ($tablet) {
-      float: right;
-      line-height: 1.5em;
-    }
+    float: right;
+    line-height: 1.5em;
   }
   ul.navigation-menu {
     clear: both;
-    display: none;
-    margin: 0 auto;
     overflow: visible;
-    padding: 0;
     width: 100%;
-    @include media ($tablet) {
-      display: block;
-      margin: 0;
-      padding: 0;
-    }
-    &.show {
-      display: block;
-    }
+    display: block;
+    margin: 0;
+    padding: 0;
   }
   // Nav items
   ul li.nav-link {
-    display: block;
     text-align: right;
-    width: 100%;
     padding: 0.25em 0;
-    @include media ($tablet) {
-      background: transparent;
-      display: inline;
-      text-decoration: none;
-      width: auto;
-    }
+    background: transparent;
+    display: inline;
+    text-decoration: none;
+    width: auto;
   }
   li.nav-link {
   	a {
 	    display: inline-block;
-	    @include media ($tablet) {
-	      padding-right: 1.5em;
-	    }
+	    padding-right: 1.5em;
 	  }
 	  &:last-child a {
-	  	@include media ($tablet) {
-    		padding-right: 1em;
-    	}
+    	padding-right: 1em;
     }
   }
 }
