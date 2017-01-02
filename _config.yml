@@ -12,7 +12,7 @@ name: abrasumente
 description: >
   深思熟虑
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "https://abrasumente233.github.io" # the base hostname & protocol for your site
+url: "http://bleakfall.xyz" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 hl_style: "css/github.css"
